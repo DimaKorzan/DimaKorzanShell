@@ -1,0 +1,29 @@
+## Русский
+
+**DimaKorzanShell** — любительский проект с открытым исходным кодом. Используя его, ты соглашаешься с условиями ниже.
+
+1. **Без гарантий.** Программа предоставляется «как есть», без каких-либо гарантий, явных или подразумеваемых, включая пригодность для конкретных целей и отсутствие ошибок.
+2. **Ответственность.** Автор не отвечает за потерю данных, сбои системы, сломанные настройки Windows и любой другой прямой или косвенный ущерб от использования программы.
+3. **Вмешательство в систему.** Программа скрывает панель задач и рабочий стол Windows, перехватывает часть сочетаний клавиш (глобальный хук клавиатуры) и при включённой опции может завершать процесс `explorer.exe`. Всё это ты включаешь на свой страх и риск.
+4. **Восстановление.** Если панель или рабочий стол не вернулись, запусти `DimaKorzanShell.exe /restore`, нажми `Ctrl+Alt+Q` или перезапусти Проводник через Диспетчер задач (`Ctrl+Shift+Esc` → «Запустить новую задачу» → `explorer.exe`).
+5. **Антивирусы.** Из-за хука клавиатуры и скрытия окон антивирусы могут давать ложные срабатывания. Исходный код открыт, проверяй его сам и собирай программу самостоятельно, если не доверяешь готовому `.exe`.
+6. **Чужие сервисы.** Проект не связан с Microsoft, Discord и Genius и не одобрен ими. Все названия и товарные знаки принадлежат их владельцам. Ты сам отвечаешь за соблюдение их условий использования, а также условий LRCLIB.
+7. **Тексты песен и обложки.** Принадлежат правообладателям. Программа загружает их по запросу для личного отображения и не сохраняет и не распространяет.
+8. **Ключи и токены.** Не публикуй свои токены (Genius и др.) в репозитории, в issues и на скриншотах. За утечку своих ключей отвечаешь ты.
+9. **Не для чужих компьютеров.** Не используй программу на рабочем или чужом устройстве без разрешения владельца.
+10. **Лицензия.** Права на использование и распространение определяет файл `LICENSE`. Этот дисклеймер его не заменяет.
+
+## English
+
+**DimaKorzanShell** is a hobby open-source project. By using it, you agree to the terms below.
+
+1. **No warranty.** The software is provided "as is", without warranty of any kind, express or implied, including fitness for a particular purpose or absence of bugs.
+2. **Liability.** The author is not liable for data loss, system instability, broken Windows settings, or any other direct or indirect damage resulting from use of the software.
+3. **System modification.** The software hides the Windows taskbar and desktop, intercepts some keyboard shortcuts (global keyboard hook), and, if enabled, may terminate `explorer.exe`. You enable these features at your own risk.
+4. **Recovery.** If the taskbar or desktop does not come back, run `DimaKorzanShell.exe /restore`, press `Ctrl+Alt+Q`, or restart Explorer from Task Manager (`Ctrl+Shift+Esc` → "Run new task" → `explorer.exe`).
+5. **Antivirus.** Because of the keyboard hook and window hiding, antivirus software may report false positives. The source is open: review it and build it yourself if you do not trust the prebuilt `.exe`.
+6. **Third parties.** This project is not affiliated with or endorsed by Microsoft, Discord or Genius. All names and trademarks belong to their owners. You are responsible for complying with their terms of service, as well as LRCLIB's.
+7. **Lyrics and artwork.** They belong to their respective rights holders. The software fetches them on demand for personal display only and does not store or redistribute them.
+8. **Keys and tokens.** Do not publish your tokens (Genius, etc.) in the repository, issues, or screenshots. You are responsible for any leak of your own keys.
+9. **Not for computers you do not own.** Do not use the software on a work or third-party device without the owner's permission.
+10. **License.** Your rights to use and redistribute the software are defined by the `LICENSE` file. This disclaimer does not replace it.
